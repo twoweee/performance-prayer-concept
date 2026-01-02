@@ -102,6 +102,10 @@ img {
     padding: 10px;
 }
 
+.concept-text {
+    width: 30%;
+}
+
 @media (width <=1100px) {
 
     h1 {
@@ -166,5 +170,9 @@ img {
 
         flex-direction: column;
 
+    }
+
+    .concept-text {
+        width: auto;
     }
 }
