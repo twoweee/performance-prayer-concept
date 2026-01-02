@@ -14,7 +14,7 @@ body {
 }
 
 main {
-    margin: 80px;
+    margin: 10vw;
     margin-top: 30px;
     margin-bottom: 30vh;
     background-color: white;
@@ -57,6 +57,7 @@ a {
 img {
     display: block;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .bandc-sidebar {
@@ -72,8 +73,11 @@ img {
     justify-content: space-between;
     flex-direction: row;
     margin: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 40px;
+
+    border-color: black;
+    border: 0px;
+    border-style: dashed;
 }
 
 .flex-col {
@@ -103,8 +107,10 @@ img {
 }
 
 .concept-text {
-    width: 30%;
+    width: 28%;
 }
+
+.sound-fix {}
 
 @media (width <=1100px) {
 
@@ -168,11 +174,18 @@ img {
 
     .flex-row {
 
-        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-bottom: 80px;
+
 
     }
 
     .concept-text {
         width: auto;
+    }
+
+    .sound-fix {
+        margin-bottom: 0px;
+        flex-direction: column;
     }
 }
