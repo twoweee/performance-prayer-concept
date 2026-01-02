@@ -76,6 +76,12 @@ img {
     margin-right: 10px;
 }
 
+.flex-col {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
 .hide {
     display: none;
 }
