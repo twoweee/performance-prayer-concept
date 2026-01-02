@@ -13,7 +13,7 @@
 <body>
   <main>
 
-    <div>
+    <div class="section">
       <h1>
         This is a small portfolio and a concept/idea for my application for
         <br>
@@ -25,41 +25,87 @@
       </h2>
       <h2 class="bolder">
         "Forms of Prayer"
-      </h2><br>
+      </h2>
+      <div class="just-flex">
+        <h3>Jump to section:</h3>
+        <a class="jumplink " href="#sound-snippets">Examples of sounds</a>
+        <a class="jumplink " href="#concept-explained">Performance Concept Explained</a>
+        <a class="jumplink hide" href="#music-by-me">Music by me</a>
+        <a class="jumplink " href="#what-i-do">What I do</a>
+
+        <a class="jumplink unhide">My music is in the right side panel &#8600</a>
+      </div>
     </div>
 
     <div class="main-content">
       <div class="middle">
-        <img src="./sketch.jpg" alt="img1" width="60%" height="auto" class="child">
-        <br>
-        <img src="./top_down.jpg" alt="img1" width="60%" height="auto" class="child">
-        <div class="bandc-bottom">
-          <h1>Music by me:</h1>
-          <iframe style="border: 0; width: 60vw; height: 60vw;"
-            src="https://bandcamp.com/EmbeddedPlayer/track=2279642407/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/"
-            seamless><a href="https://ann-tenal.bandcamp.com/track/odze-mix-for-sam">Odze (mix for Sam) by
-              ann-tenal</a></iframe>
-          <iframe style="border: 0; width: 60vw; height: 60vw;"
-            src="https://bandcamp.com/EmbeddedPlayer/album=3810967872/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1918480632/transparent=true/"
-            seamless><a href="https://womenofnoise.bandcamp.com/album/for-wildfires-relief">For Wildfires Relief by ann
-              tenal</a></iframe>
+        <div id="sound-snippets" class="section">
+          <h3>
+            Sound ideas I would be working with:
+          </h3>
+          <p>test</p>
+        </div>
+        <div id="concept-explained" class="section">
+          <h3>
+            Concept:
+          </h3>
+          <div class="flex-row">
+            <p style="width: 30%; margin: auto; margin-top: 0;">test</p>
+            <a href="./sketch.jpg" style="width: 100%;">
+              <img src="./sketch.jpg" alt="img1" width="100%" height="auto">
+            </a>
+          </div>
+          <br>
+          <div class="flex-row">
+            <p style="width: 30%; margin: auto; margin-top: 0;">test</p>
+            <a href="./sketch.jpg" style="width: 100%;">
+              <img src="./top_down.jpg" alt="img1" width="100%" height="auto">
+            </a>
+          </div>
+
+        </div>
+        <div id="music-by-me" class="bandc-bottom section">
+          <h3>Music by me:</h3>
+          <div class="flex-row">
+            <p style="width: auto; margin: auto; margin-top: 0;">teasdasdasdasdasdsst</p>
+            <iframe style="border: 0; width: 60%; aspect-ratio: 1/1; margin: auto;"
+              src="https://bandcamp.com/EmbeddedPlayer/track=2279642407/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/"
+              seamless><a href="https://ann-tenal.bandcamp.com/track/odze-mix-for-sam">Odze (mix for Sam) by
+                ann-tenal</a></iframe>
+          </div>
+          <div class="flex-row">
+            <p style="width: auto; margin: auto; margin-top: 0;">test</p>
+            <iframe style="border: 0; width: 60%; aspect-ratio: 1/1; margin: auto;"
+              src="https://bandcamp.com/EmbeddedPlayer/album=3810967872/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1918480632/transparent=true/"
+              seamless><a href="https://womenofnoise.bandcamp.com/album/for-wildfires-relief">For Wildfires Relief by
+                ann
+                tenal</a></iframe>
+          </div>
+        </div>
+        <div id="what-i-do" class="section">
+          <h3>
+            What I do:
+          </h3>
+          <p>test</p>
         </div>
       </div>
-      <div class="bandc-sidebar">
-        <div style="width: 15vw; margin: auto;">
-          <h2>Music by me:</h2>
-          <iframe style="border: 1; width: 15vw; height: 24vw;"
+      <div class="bandc-sidebar section">
+        <div id="music-by-me-side" style="width: 15vw; margin: auto;">
+          <h3>Music by me:</h3>
+          <p>test</p>
+          <iframe style="border: 1; width: 15vw; aspect-ratio: 1/1;"
             src="https://bandcamp.com/EmbeddedPlayer/track=2279642407/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
             seamless><a href="https://ann-tenal.bandcamp.com/track/odze-mix-for-sam">Odze (mix for Sam) by
               ann-tenal</a></iframe>
-          <iframe style="border: 1; width: 15vw; height: 24vw;"
+          <p>test</p>
+          <iframe style="border: 1; width: 15vw; aspect-ratio: 1/1;"
             src="https://bandcamp.com/EmbeddedPlayer/album=3810967872/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=1918480632/transparent=true/"
             seamless><a href="https://womenofnoise.bandcamp.com/album/for-wildfires-relief">For Wildfires Relief by
               ann
               tenal</a></iframe>
         </div>
       </div>
-    </div>
+
 
   </main>
   <script src="index.js"></script>
